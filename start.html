@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		body  {
+  background-image: url("images.jpg");
+  
+}
+
+#name {
+	height: 480px;
+	width: 460px;
+	color: yellow;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	font-size: 70px;
+	text-shadow: 6px 4px white;
+}
+#Ball {
+	width: 20px;
+			height: 20px;
+			background-color: orange;
+			position: absolute;
+			top: 42%;
+			left: 59%;
+			border-radius: 20px;
+			border:2px solid black;
+}
+#start
+{
+	position: absolute;
+			top: 55%;
+			left: 45%;
+			height: 50px;
+			width: 180px;
+			border:2px solid black;
+			background-color: red;
+			color: white;
+
+}
+#quit
+{
+	position: absolute;
+			top: 65%;
+			left: 45%;
+			height: 50px;
+			width: 180px;
+			border:2px solid black;
+			background-color: red;
+			color: white;
+
+}
+#connect
+{
+	position: absolute;
+			top: 75%;
+			left: 45%;
+			height: 50px;
+			width: 180px;
+			border:2px solid black;
+			background-color: red;
+			color: white;
+
+}
+audio {
+ 	display: none;
+ }      
+
+
+
+</style>
+</head>
+<body>
+  <p id="name"><strong>DX BALL</strong></p>
+<div id="Ball" ></div>
+<input type="button" id="start" onclick="window.location.href = 'file:///C:/Web/index.html';" value="Start New Game"/>
+<input type="button" id="quit" onclick="window.location.href = '#';" value="Quit"/>
+<input type="button" id="connect"  value="Connect to Facebook"/>
+<audio loop="loop" autoplay="autoplay" controls="controls">  
+  
+  <source src="good_enough.mp3" type="audio/mpeg" >
+  
+</audio>
+       
+</div>
+</body>
+</html>
